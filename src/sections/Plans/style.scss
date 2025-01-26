@@ -1,0 +1,62 @@
+.plans-featrues {
+  background-color: #181818;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  margin: 0 auto;
+  user-select: none; /* Disable text selection */
+  -webkit-user-select: none; /* For Safari */
+  -moz-user-select: none; /* For Firefox */
+  -ms-user-select: none; /* For older IE */
+}
+
+.plans-price {
+  width: 90%;
+  margin: -20px auto 0 auto;
+  cursor: pointer;
+  user-select: none; /* Disable text selection */
+  -webkit-user-select: none; /* For Safari */
+  -moz-user-select: none; /* For Firefox */
+  -ms-user-select: none; /* For older IE */
+}
+
+.plans-price-card {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 23px 0;
+  transition-duration: 0.7s;
+  user-select: none;
+}
+
+@media screen and (max-width: 900px) {
+  .plans-featrues {
+    width: 60%;
+  }
+
+  .plans-price {
+    width: 60%;
+    margin: -20px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .plans-featrues {
+    width: 80%;
+  }
+
+  .plans-price {
+    width: 80%;
+    margin: -20px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .plans-featrues {
+    width: 100%;
+  }
+
+  .plans-price {
+    width: 100%;
+    margin: -20px auto 0 auto;
+  }
+}

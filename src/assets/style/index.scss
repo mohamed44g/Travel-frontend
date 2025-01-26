@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  font-family: "Poppins", serif;
+  background-color: #111111;
+  scroll-behavior: smooth;
+}
+
+.bg {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+  }
+}
+
+.Home-content {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    color: #2db84b;
+    font-size: 3rem;
+  }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #181818 inset !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+a {
+  all: unset; /* Resets all styles */
+  color: #fff; /* Set your desired default color */
+  text-decoration: none; /* Remove underline */
+  cursor: pointer; /* Restore pointer cursor for links */
+  font-size: 16px;
+}
