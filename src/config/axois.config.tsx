@@ -7,7 +7,7 @@ axios.defaults.withCredentials = true;
 
 const axiosInstance = axios.create({
   withCredentials: true,
-  baseURL: "https://travel-backend-production-ba0d.up.railway.app/api/v1",
+  baseURL: "https://travel-backend-brown.vercel.app/api/v1",
 });
 
 axiosInstance.interceptors.request.use(
